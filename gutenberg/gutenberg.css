@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+html {
+	font-family: 'Sacramento', cursive;
+	background-color: rgb(250, 240, 187);
+
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	line-height: 6em;
+	color: rgb(42, 42, 42);
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+	line-height: 3.6em;
+	color: rgb(42, 42, 42);
+}
+
+h3 {
+	font-size: 2em;
+	text-align: center;
+	line-height: 2.5em;
+	color: rgb(42, 42, 42);
+}
+
+p {
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	color: rgb(70, 70, 70);
+}
+
+img {
+	width: 100%;
+	border-radius: 16pt;
+}
+
+
+.fig {
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 100%;
+	max-width: 100%;
+}
+
+.chapter {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8pt;
+}
+
+a {
+	color: inherit;
+}

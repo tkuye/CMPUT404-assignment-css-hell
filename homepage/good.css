@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+html, body {
+	font-family: 'Inter', sans-serif;
+
+}
+
+.header, .professional {
+	padding: 2em;
+	margin-bottom: 1em;
+	margin-left: 18em;
+}
+
+.header h1 {
+	font-size: 4em;
+	line-height: 1em;
+	margin: 5pt 0;
+	
+}
+.header .label {
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	color: rgb(111, 111, 111);
+	font-style: italic;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-content img {
+	width: 280px;
+	object-fit: contain;
+	margin-right: 2em;
+	border-radius: 15pt;
+}
+.header-content p {
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+.header div {
+	color: rgb(37, 37, 37);
+}
+
+.header a {
+	color: rgb(11, 105, 255);
+	text-decoration: none;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 17em;
+	padding: 16pt 0;
+	height: 100vh;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgb(235, 235, 235);
+}
+
+.sidebar h2 {
+	font-size: 2em;
+	line-height:1.2em;
+	margin: 5pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(50, 50, 50);
+	text-align: center;
+	margin-bottom: 10pt;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding-left: 2em;
+	margin: 0;
+}
+
+.sidebar ul li {
+	margin-top: 3pt;
+	line-height: 2em;
+	font-size: 1em;
+	color: rgb(103, 103, 103);
+}
+
+.professional {
+	padding-top: 0;
+}
+
+.professional h2 {
+	font-size: 2em;
+	line-height: 2em;
+	margin: 5pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(50, 50, 50);
+}
+
+.history ul {
+	list-style-type: square;
+	padding-left: 1em;
+	margin: 0;
+	color: rgb(62, 62, 62);
+}
+
+
+
+.history h3 {
+	font-size: 1.5em;
+	line-height: 2em;
+	margin: 3pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(50, 50, 50);
+}
+
+
+.history h4 {
+
+	line-height: 2em;
+	letter-spacing: 0.1em;
+	margin: 3pt 0;
+	color: rgb(111, 111, 111);
+}
+

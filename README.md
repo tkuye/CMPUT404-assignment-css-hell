@@ -22,3 +22,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+### Part I Changes
+- Added a yellowish tint to the background of the documents
+- Change the font to Sacramento from Google Fonts. 
+- Added line-height and tag font size styles for personalization. 
+
+### Part II Changes
+**WARNING** `ugly.html` may trigger seizures for people with photsensitive epilepsy. View at your own risk.

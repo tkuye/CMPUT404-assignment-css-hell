@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+html, body {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	background-color: aqua;
+	animation: blinker 0.3s linear infinite;
+}	
+
+@keyframes blinker {
+	50% {
+	  background-color: aqua;
+	}
+	100% {
+	  background-color: rgb(255, 0, 0);
+  }
+}
+
+.header, .professional {
+	padding: 2em;
+	margin-bottom: 1em;
+	margin-left: 18em;
+	
+}
+
+.header h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+	margin: 5pt 0;
+	animation: grow 1s linear infinite;
+}
+
+@keyframes grow {
+	0% {
+	  transform: rotate(0deg);
+	  transform: scale(1);
+	}
+
+	50% {
+	  transform: rotate(0deg);
+	  transform: scale(5);
+	}
+	100% {
+	  transform: rotate(90deg);
+	  transform: scale(1);
+  }
+}
+
+.header .label {
+	font-size: 4.5em;
+	line-height: 2.45em;
+	letter-spacing: 0.1em;
+	color: rgb(41, 141, 255);
+	font-style: italic;
+	animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+	0% {
+	  transform: rotate(0deg);
+	}
+	50% {
+	  transform: rotate(180deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+  }
+}
+
+.header-content {
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+
+.header-content p {
+	color: darkorange;
+}
+
+.header-content img {
+	width: 400px;
+	object-fit: contain;
+	margin-right: 24em;
+	box-shadow: 0 0 100px 0 rgba(247, 29, 29, 0.869);
+	animation: supergrow 15s linear infinite;
+}
+
+@keyframes supergrow {
+	0% {
+	  transform: scale(0.1);
+	}
+
+	25% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(10);
+	}
+	75% {
+	  transform: scale(1);
+	}
+
+	100% {
+	  transform: scale(0.1);
+  }
+}
+
+.header-content p {
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+.header div {
+	color: rgb(37, 37, 37);
+}
+
+.header a {
+	color: rgb(255, 11, 178);
+	text-decoration: none;
+}
+.header a:hover {
+	display: none;
+}
+
+.sidebar {
+	position: fixed;
+	top: 12;
+	left: 12;
+	width: 2em;
+	padding: 16pt 0;
+	height: 100vh;
+	animation: blinker-sidebar 0.5s linear infinite;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgb(201, 255, 40);
+}
+
+
+@keyframes blinker-sidebar {
+	50% {
+	  background-color: rgb(47, 255, 0);
+	}
+	100% {
+	  background-color: rgb(255, 50, 238);
+  }
+}
+.sidebar h2 {
+	font-size: 12em;
+	line-height:1.2em;
+	margin: 5pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(50, 50, 50);
+	text-align: center;
+	margin-bottom: 10pt;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding-left: 2em;
+	margin: 0;
+}
+
+.sidebar ul li {
+	margin-top: 21pt;
+	line-height: 2em;
+	font-size: 1em;
+	color: rgb(219, 61, 61);
+}
+
+.professional {
+	padding-top: 0;
+}
+
+.professional h2 {
+	font-size: 2em;
+	line-height: 2em;
+	margin: 5pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(101, 59, 217);
+}
+
+.history ul {
+	list-style-type: square;
+	padding: 0;
+	margin: 0;
+	font-style: oblique;
+	text-decoration: line-through;
+	color: aquamarine;
+	animation: sidetoside 1s linear infinite;
+}
+
+
+@keyframes sidetoside {
+	0% {
+	  transform: translateX(0);
+	}
+	50% {
+	  transform: translateX(200px);
+	}
+	100% {
+	  transform: translateX(0);
+  }
+}
+
+
+.history h3 {
+	font-size: 1.5em;
+	line-height: 2em;
+	margin: 3pt 0;
+	letter-spacing: 0.1em;
+	color: rgb(50, 50, 50);
+}
+
+
+.history h4 {
+
+	line-height: 3.9em;
+	letter-spacing: 0.1em;
+	margin: 22pt 0;
+	color: rgb(111, 111, 111);
+}
+
+.history ul {
+	list-style-type: square;
+	padding-left: 5em;
+	margin: 26px;
+}
